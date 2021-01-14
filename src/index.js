@@ -77,7 +77,7 @@ function handleFormSubmit(e) {
     //then append as a child onto the taskUL
     taskUL.appendChild(LI)
 
-    //clear the form
+    //clear the form for next task
     e.target.reset()
 
 }
